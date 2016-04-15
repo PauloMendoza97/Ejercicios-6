@@ -1,11 +1,8 @@
 #include<stdio.h>
 
-#define swap(t,x,y) { t _z; \
-             _z = x;\
-              x = y;\
-              y = _z; }
+#define swap(t,x,y) { t _z; \ _z = x;\x = y;\ y = _z; }
 /* Defina una macro fswap(t,x,y)| que intercambie dos argumentos de
-tipo[3- (La estructura de bloques ayudar·.) */
+tipo[3- (La estructura de bloques ayudar√°.) */
 
 int main(void)
 {
